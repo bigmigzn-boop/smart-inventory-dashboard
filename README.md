@@ -21,3 +21,23 @@ Passei a inserir as quantidades diretamente pelo smartphone durante as contagens
 
 <img width="349" height="472" alt="Screenshot 2026-03-05 111815" src="https://github.com/user-attachments/assets/0c283c18-c254-4475-a209-ac6ba9ed4cae" />
 
+# Supply Control Optimization at the Pilot Plant – Kenvue
+
+During my contract at the Kenvue Pilot Plant, I was responsible for managing supply inventory across several areas of the facility, including: Office, Engineered, Clinical, Supply (Sample Registration), Formulated, and Warehouse.
+The original process was entirely manual — using paper and pen — which made inventory analysis slow, error‑prone, and inefficient.
+To address this, I took the initiative to modernize the workflow by creating an automated Excel spreadsheet, using formulas such as:
+Excel=IF(D3<B3, "Below Stock", IF(D3<=B3+1, "Pay Attention", "OK"))
+[Supply Inventory Spreadsheet](https://kenvue-my.sharepoint.com/:x:/r/personal/mcosta06_kenvue_com/Documents/Attachments/Controle%20de%20insumos%20Planta%20Piloto%20-%20Copia.xlsx?d=w49b2872739254cabaeca3a8687434f10&csf=1&web=1&e=9mXbM3)
+
+<img width="1067" height="422" alt="Screenshot 2026-03-04 125105" src="https://github.com/user-attachments/assets/3f4bb4e9-3dd7-4059-8a5d-bd6414116adc" />
+<img width="800" height="475" alt="Screenshot 2026-03-04 125032" src="https://github.com/user-attachments/assets/22572c97-4690-4da5-8ae6-258b8829bb40" />
+
+Combined with conditional formatting, this allowed for clearer and faster interpretation of stock levels. The improvement significantly reduced analysis time and improved overall organization.
+
+## Process Evolution
+Even with the new spreadsheet, the stock counting procedure still required writing everything down on paper before transferring it to the computer. Looking for further optimization, I developed a second Excel sheet, this time designed for mobile use.
+Using simple references like:
+"Excel='Ficha de Controle'!B2S"
+I could input quantities directly from my phone during inventory checks. This eliminated the need for manual notes and greatly accelerated the inventory management workflow.
+
+<img width="349" height="472" alt="Screenshot 2026-03-05 111815" src="https://github.com/user-attachments/assets/0c283c18-c254-4475-a209-ac6ba9ed4cae" />
