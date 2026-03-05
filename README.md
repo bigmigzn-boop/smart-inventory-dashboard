@@ -15,7 +15,7 @@ Também apliquei formatação condicional, permitindo uma visualização rápida
 ## Evolução do Processo
 Apesar da melhoria, a conferência manual do estoque ainda exigia anotar tudo no papel para só depois transferir ao computador. Para otimizar ainda mais, desenvolvi uma segunda planilha, desta vez pensada para uso no celular.
 Através de referências simples, como:
-Excel= "'Ficha de Controle'!B2Show" 
+Excel= "'Ficha de Controle'!B2" 
 Passei a inserir as quantidades diretamente pelo smartphone durante as contagens, eliminando a necessidade de papel e agilizando significativamente o processo de gestão de estoque.
 
 
